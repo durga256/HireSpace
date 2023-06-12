@@ -1,0 +1,14 @@
+.empty-class{
+    height: 33vh;
+}
+.button-center-div{
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.button-center-button {
+    font-size: 18px;
+    border-radius: 12px;
+    width: 10rem;
+    height: 5rem;
+}

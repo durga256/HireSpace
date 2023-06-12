@@ -1,0 +1,105 @@
+body  {
+    background-color: #3c344c;
+}
+.wrapper {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 6vh 17vh 70vh;
+  grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+  margin: 1rem 1rem;
+  grid-template-areas:
+    "zero zero zero zero"
+    "one one one one"
+    "two three four five";
+}
+.zero{
+    grid-area: zero;
+}
+.zero img {
+    height: 100%;
+}
+.hamburger-menu {
+    float: right;
+}
+.one {
+  grid-area: one;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+.profile-pic {
+    height: 100%;
+    border-radius: 10px;
+}
+.candidate-details{
+    margin: 10px;
+    display: inline-block;
+}
+.two {
+background-color: #d3d3d3;
+  display: grid;
+  gap: 10px;
+  padding: 0.5rem;
+  grid-area: two;
+  grid-template-rows: 5% auto;
+  grid-template-areas:
+    "two-header"
+    "two-body";
+}
+.two-header {
+    font-weight: bold;
+  grid-area: two-header;
+  padding: 0.5rem;
+}
+.two-body { 
+  grid-area: two-body;
+  padding: 0.5rem;
+}
+.blocks {
+    background-color: #8f6bd6;
+    border-radius: 0.3rem;
+    height: minmax(30%, auto);
+    margin: 1rem;
+}
+.block-header {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+.block-body {
+    text-align: center;
+    padding: 5px;
+}
+.three {
+    background-color: #d3d3d3;
+    display: grid;
+  gap: 10px;
+  grid-template-rows: 5% auto;
+  padding: 0.5rem;
+  grid-area: three;
+  grid-template-areas:
+    "two-header"
+    "two-body";
+}
+.four {
+    background-color: #d3d3d3;
+    display: grid;
+  gap: 10px;
+  grid-template-rows: 5% auto;
+  padding: 0.5rem;
+  grid-area: four;
+  grid-template-areas:
+    "two-header"
+    "two-body";
+}
+.five {
+    background-color: #d3d3d3;
+    display: grid;
+  gap: 10px;
+  grid-template-rows: 5% auto;
+  padding: 0.5rem;
+  grid-area: five;
+  grid-template-areas:
+    "two-header"
+    "two-body";
+}
