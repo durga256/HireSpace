@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/HireSpace/static/css/main.c9166dc4.css",
+    "main.js": "/HireSpace/static/js/main.485fd47b.js",
+    "static/media/profile-pic-recruiter.jpg": "/HireSpace/static/media/profile-pic-recruiter.7a2f12df7485b65d348f.jpg",
+    "index.html": "/HireSpace/index.html",
+    "main.c9166dc4.css.map": "/HireSpace/static/css/main.c9166dc4.css.map",
+    "main.485fd47b.js.map": "/HireSpace/static/js/main.485fd47b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9166dc4.css",
+    "static/js/main.485fd47b.js"
+  ]
+}

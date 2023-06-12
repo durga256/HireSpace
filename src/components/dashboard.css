@@ -17,6 +17,7 @@ body  {
 }
 .zero img {
     height: 100%;
+    object-fit: cover;
 }
 .hamburger-menu {
     float: right;
@@ -26,14 +27,28 @@ body  {
   background-color: #d3d3d3;
   border-radius: 10px;
   padding: 0.5rem;
+  display: grid;
+  grid-template-rows: 13vh;
+  grid-template-columns: 15vh;
+  grid-template-areas: "profile-pic candidate-details";
 }
 .profile-pic {
-    height: 100%;
-    border-radius: 10px;
+  grid-area: profile-pic;
+  width: 13vh; 
+  height: 13vh;
+  border-radius: 10px;
 }
 .candidate-details{
-    margin: 10px;
-    display: inline-block;
+  grid-area: candidate-details;
+  display: inline-block;
+  
+}
+.candidate-details h3 {
+  margin: 0 0.5rem;
+  vertical-align: middle;
+}
+.candidate-details p {
+  margin: 0 0.5rem;
 }
 .two {
 background-color: #d3d3d3;
@@ -45,6 +60,7 @@ background-color: #d3d3d3;
   grid-template-areas:
     "two-header"
     "two-body";
+    overflow:auto;
 }
 .two-header {
     font-weight: bold;
@@ -80,6 +96,7 @@ background-color: #d3d3d3;
   grid-template-areas:
     "two-header"
     "two-body";
+    overflow:auto;
 }
 .four {
     background-color: #d3d3d3;
@@ -91,6 +108,7 @@ background-color: #d3d3d3;
   grid-template-areas:
     "two-header"
     "two-body";
+    overflow:auto;
 }
 .five {
     background-color: #d3d3d3;
@@ -102,4 +120,22 @@ background-color: #d3d3d3;
   grid-template-areas:
     "two-header"
     "two-body";
+    overflow:auto;
+}
+
+@media only screen and (max-width: 600px)  {
+  .wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 6vh 17vh;
+    grid-template-columns: 100%;
+    margin: 1rem 1rem;
+    grid-template-areas:
+      "zero"
+      "one"
+      "two"
+      "three"
+      "four"
+      "five";
+  }
 }
