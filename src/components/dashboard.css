@@ -49,6 +49,12 @@ body  {
 }
 .candidate-details p {
   margin: 0 0.5rem;
+  display: inline-block;
+}
+.candidate-details button {
+  display: inline-block;
+  margin-left: 93%;
+  padding: 0.7rem;
 }
 .two {
 background-color: #d3d3d3;

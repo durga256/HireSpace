@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/HireSpace/static/css/main.c01b2b8b.css",
-    "main.js": "/HireSpace/static/js/main.485fd47b.js",
+    "main.css": "/HireSpace/static/css/main.58cbf853.css",
+    "main.js": "/HireSpace/static/js/main.722cc31c.js",
+    "static/media/meeting.jpg": "/HireSpace/static/media/meeting.62c886f00bbd8fdefb21.jpg",
     "static/media/profile-pic-recruiter.jpg": "/HireSpace/static/media/profile-pic-recruiter.7a2f12df7485b65d348f.jpg",
     "index.html": "/HireSpace/index.html",
-    "main.c01b2b8b.css.map": "/HireSpace/static/css/main.c01b2b8b.css.map",
-    "main.485fd47b.js.map": "/HireSpace/static/js/main.485fd47b.js.map"
+    "main.58cbf853.css.map": "/HireSpace/static/css/main.58cbf853.css.map",
+    "main.722cc31c.js.map": "/HireSpace/static/js/main.722cc31c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c01b2b8b.css",
-    "static/js/main.485fd47b.js"
+    "static/css/main.58cbf853.css",
+    "static/js/main.722cc31c.js"
   ]
 }

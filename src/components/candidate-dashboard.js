@@ -5,6 +5,11 @@ import profilepic from "../assets/images/profile-pic-recruiter.jpg";
 import PrevAchievements from "../components/Candidate/previous-achievements";
 
 export default function candidate(props) {
+  const onApplyClickHandler = () => {
+      props.setPageType('apply');
+      props.setIsLoggedIn(true);
+  }
+
   let endResult = (
     <div class="zero">
       <img src={iconImg} alt="icon-img" />
@@ -30,6 +35,7 @@ export default function candidate(props) {
         <div class="candidate-details">
           <h3>Jane Doe</h3>
           <p>University of Ottawa</p>
+          <button onClick={onApplyClickHandler}>Apply</button>
         </div>
       </div>
       <div class="two">

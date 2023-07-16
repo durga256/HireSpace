@@ -9,7 +9,7 @@ export default function homepage(props) {
             <div class="header-homepage">
                 <img src={iconImg} alt="icon-img"/>
                 <img src={hamburgerMenu} class="hamburger-menu" alt="icon-img"/>
-                <button class="signup-login" onClick={() => props.setIsLoggedIn(true)}>Signup</button>
+                <button class="signup-login" onClick={() => props.setIsLoggedIn(true)}>Signin</button>
             </div>
             <div class="body-homepage">
                 <h1>Introducing HIRESPACE</h1>
