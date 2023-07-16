@@ -32,6 +32,22 @@ body  {
 .body-homepage {
     grid-area: body-homepage;
 }
-
-
+.body-homepage h1{
+    color: white;
+    
+}
+.body-homepage h3{
+    color: white;
+}
+.body-homepage p{
+    color: white;
+    display: inline-block;
+    width: 85vh;
+}
+.body-homepage img{
+    width: 85vh;
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 20px;
+}
 

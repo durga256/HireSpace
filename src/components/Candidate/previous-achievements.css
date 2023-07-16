@@ -1,0 +1,9 @@
+.two-header {
+    font-weight: bold;
+  grid-area: two-header;
+  padding: 0.5rem;
+}
+.two-body { 
+  grid-area: two-body;
+  padding: 0.5rem;
+}

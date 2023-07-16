@@ -1,0 +1,15 @@
+.blocks {
+    background-color: #8f6bd6;
+    border-radius: 0.3rem;
+    height: minmax(30%, auto);
+    margin: 1rem;
+}
+.block-header {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+.block-body {
+    text-align: center;
+    padding: 5px;
+}

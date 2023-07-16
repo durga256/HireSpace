@@ -127,7 +127,7 @@ background-color: #d3d3d3;
   .wrapper {
     display: grid;
     gap: 10px;
-    grid-template-rows: 6vh 17vh;
+    grid-template-rows: 6vh 17vh minmax(min-content, 60vh) minmax(min-content, 60vh) minmax(min-content, 60vh) minmax(min-content, 60vh);
     grid-template-columns: 100%;
     margin: 1rem 1rem;
     grid-template-areas:

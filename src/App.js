@@ -13,10 +13,10 @@ function App() {
       return <AccountType setAccountType={setAccountType}/>
     }
     else if(accountType === 'recruiter'){
-      return <Recruiter setIsLoggedIn={setIsLoggedIn} setAccountType={setAccountType}/>
+      return <Recruiter setIsLoggedIn={setIsLoggedIn} setAccountType={setAccountType} accountType={accountType}/>
     }
     else{
-      return <Candidate setIsLoggedIn={setIsLoggedIn} setAccountType={setAccountType}/>
+      return <Candidate setIsLoggedIn={setIsLoggedIn} setAccountType={setAccountType} accountType={accountType}/>
     }
   }
   else{
